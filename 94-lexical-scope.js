@@ -1,0 +1,2 @@
+var x = 10
+//এক্ষেত্রে compiler লেখাটিকে সরাসরি বুঝবেনা। এজন্য প্রত্যেকটি অংশকে এক একটি token আকারে ভাগ করে ফেলবে। যেমনঃ var x = 10; এক্ষেত্রে var একটি token,  x একটি token, = একটি token এবং 10 একটি token হিসেবে রুপান্তর করে ফেলবে। এই tokenize করার ওয়েকে বলা হয় lexical । JavaScript engine যখন কোন একটা কোডকে tokenize করে থাকে তখন সে define করে দেয় যে, কার scope কি হবে। একেই বলা হয় lexical scope
